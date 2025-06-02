@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.row{
+   width: 100%;
+}
+.row div{
+    background-color: silver;
+
+margin: 5px;
+
+
+}
+.row div h3{
+    margin: 0;
+    float: right;
+    padding: 10px 30px;
+    border: 1px solid black;
+}
+.html{
+    background-color: rgb(224, 141, 62)
+}
+.css{
+    background-color: rgb(69, 90, 209)
+}
+.js{
+    background-color: rgb(242, 245, 100)
+}
+p{
+    display: flex;
+
+padding: 10px;
+    width: 100%;
+    height: 150px;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+}
+@media (min-width: 992px ) {
+    .box-lg-1, .box-lg-2, .box-lg-3{ 
+      float: left;
+      border: 1px solid black;
+      margin: 0% 20px;
+    }
+    .box-lg-1 { width: 30%; }
+    .box-lg-2 { width: 30%; }
+    .box-lg-3 { width: 30%; }
+  }
+  @media (min-width: 768px) and (max-width: 991px ) {
+    .box-lg-1, .box-lg-2, .box-lg-3{ 
+    float: left;
+    border: 1px solid black;
+    margin: 0% 20px;
+
+    }
+    .box-lg-1 { width: 45%; }
+    .box-lg-2 { width: 45%; }
+    .box-lg-3 { width: 100%; }
+}
+@media (max-width: 767px) {
+    .box-lg-1, .box-lg-2, .box-lg-3{ 
+    float: left;
+    border: 1px solid black;
+    margin: 0% 20px;
+    }
+    .box-lg-1 { width: 100%; }
+    .box-lg-2 { width: 100%; }
+    .box-lg-3 { width: 100%; }
+}
